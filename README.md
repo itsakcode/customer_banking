@@ -6,6 +6,18 @@ User will select type of account for which they need to check balance and intere
 Provide all the required details balance, apr and duration. 
 User will be provided with details of current balance and how much interest they earned.
 
+# Project Structure
+
+```
+.
+├── Account.py
+├── README.md
+├── cd_account.py
+├── customer_banking.py
+├── savings_account.py
+└── utils.py
+```
+
 # Calculations
 
 Interest earned is calculated using below formula's for each account type,
