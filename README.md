@@ -14,8 +14,10 @@ Interest earned is calculated using below formula's for each account type,
 ***balance * (apr/100 * months/12)***
 
 ### Certificate of Deposit 
-***(principal * (1 + (rate / duration) ) ** ( duration * year )) - principal***
+***(principal * (1 + (rate / duration) ) ** ( duration * year )) - principal [^1]***
 
 # Sample Output
 
 <img width="527" alt="Screenshot 2023-11-11 at 8 45 08 PM" src="https://github.com/itsakcode/customer_banking/assets/93089647/b4c66d8b-4c7a-455d-b17e-014c4ad9aa9a">
+
+[^1]: https://courses.lumenlearning.com/mathforliberalartscorequisite/chapter/compound-interest-calculator-certificates-of-deposit/
