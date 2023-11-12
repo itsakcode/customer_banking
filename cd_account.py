@@ -21,12 +21,12 @@ def create_cd_account(balance, interest_rate, months):
     # Calculate interest earned
     #interest_earned = balance * (interest_rate/100 * months/12)
 
-    P = balance
-    r = interest_rate/100
-    k = getDays(months)
-    t = (months//12)
+    principal = balance
+    rate = interest_rate/100
+    duration = getDays(months)
+    year = 1 if (months//12) == 0 else (months//12)
 
-    interest_earned = (P * (1 + (r/k) ) ** ( k * t ))-P
+    interest_earned = (principal * (1 + (rate / duration) ) ** ( duration * year )) - principal
 
     # Update the CD account balance by adding the interest earned
     new_balance = balance + interest_earned
